@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hey, Im Erick Weigel! I am an undergraduate senior at Drexel University pursuing
+a degree in both Electrical Engineering and Computer Engineering. This webpage
+is a little blog about myself and some of the things I do.
 
-### More Information
+### Find Me on the Internet!
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+I do things on the internet!
+..* Xbox Live: Frostmourne94
+..* Steam: [Stenwulf](https://steamcommunity.com/id/evilbane)
+..* Discord: Stenwulf#9442
