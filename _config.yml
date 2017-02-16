@@ -14,7 +14,7 @@ avatar: https://avatars2.githubusercontent.com/u/6486941?v=3&u=75f8c618c7949ba2d
 #
 # Flags below are optional
 #
-
+theme: jekyll-theme-hacker
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
