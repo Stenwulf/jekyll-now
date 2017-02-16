@@ -2,6 +2,8 @@
 # This file contains configuration flags to customize your site
 #
 
+theme: jekyll-theme-hacker
+
 # Name of your site (displayed in the header)
 name: Erick Weigel (Stenwulf)
 
@@ -14,7 +16,7 @@ avatar: https://avatars2.githubusercontent.com/u/6486941?v=3&u=75f8c618c7949ba2d
 #
 # Flags below are optional
 #
-theme: jekyll-theme-hacker
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
