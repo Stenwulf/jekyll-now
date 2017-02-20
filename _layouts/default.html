@@ -16,8 +16,9 @@
   </head>
 
   <body>
+
     <div class="wrapper-masthead">
-      <div class="container">
+      <div class="container" style="max-width:1800px;">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
@@ -34,7 +35,23 @@
       </div>
     </div>
 
-    <div id="main" role="main" class="container">
+    <aside class="wrapper-sidebar">
+      <div class="sidebar">
+
+        <h1 class="sidebar-title"> Post Index </h1>
+
+        <ul>
+          {% for post in site.posts %}
+              <li class="post-element">
+                <a href="{{ post.url }}"> {{ post.date | date: "%B %e, %Y" }} | {{ post.title }} </a>
+              </li>
+            {% endfor %}
+        </ul>
+
+      </div>
+    </aside>
+
+    <div id="main" role="main" class="container" style="margin-top:5px;">
       {{ content }}
     </div>
 

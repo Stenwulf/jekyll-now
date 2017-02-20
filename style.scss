@@ -25,8 +25,8 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: 1000px;
+  padding: 0 0px;
   width: 100%;
 }
 
@@ -146,17 +146,50 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
+.wrapper-sidebar {
+  margin-right: 25px;
+  max-width: 350px;
+  float: right;
+  margin-top: 1px;
+}
+
+.sidebar {
+
+  padding-left: 25px;
+  border-left: 1px solid $lightGray;
+  width: 100%;
+
+}
+
+.sidebar-title {
+  color: $darkGray;
+  cursor: pointer;
+  font-family: $helveticaNeue;
+  font-weight: 300;
+  font-size: 28px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $lightGray;
+}
+
+.post-element{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 //
 // .masthead
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 5px;
+  margin-top: 1px;
 }
 
 .masthead {
-  padding: 20px 0;
+  padding-top: 25px;
   border-bottom: 1px solid $lightGray;
+  align-content: center;
 
   @include mobile {
     text-align: center;
