@@ -154,11 +154,9 @@ img {
 }
 
 .sidebar {
-
   padding-left: 25px;
   border-left: 1px solid $lightGray;
   width: 100%;
-
 }
 
 .sidebar-title {
@@ -201,6 +199,7 @@ img {
   width: 70px;
   height: 70px;
   margin-right: 15px;
+  margin-bottom:15px;
 
   @include mobile {
     float: none;

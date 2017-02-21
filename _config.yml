@@ -1,8 +1,7 @@
 #
 # This file contains configuration flags to customize your site
 #
-
-theme: jekyll-theme-hacker
+include: ["_pages"]
 
 # Name of your site (displayed in the header)
 name: Erick Weigel (Stenwulf)
