@@ -1,0 +1,77 @@
+---
+title: Prototype
+permalink: /prototype/
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="interface.css" />
+
+  </head>
+
+  <body>
+
+    <!-- Standard Masthead for Blog -->
+    {% include masthead.html %}
+
+    <div class="overview_wrapper">
+
+      <div class="character_attributes">
+
+        <h1 class="tab_header">Attributes</h1>
+
+        <div class="attributes_wrapper">
+          <div class="attribute">
+            <img src="{{ site.baseurl }}/images/prototype/strength.jpg" class="attribute_image"/>
+            <span class="attribute_title">Strength:&nbsp;<span id="strength">1</span></span>
+          </div>
+
+          <div class="attribute">
+            <img src="{{ site.baseurl }}/images/prototype/constitution.jpg" class="attribute_image"/>
+            <span class="attribute_title">Constitution:&nbsp;<span id="consitition">1</span></span>
+          </div>
+
+          <div class="attribute">
+            <img src="{{ site.baseurl }}/images/prototype/dexterity.jpg" class="attribute_image"/>
+            <span class="attribute_title">Dexterity:&nbsp;<span id="dexterity">1</span></span>
+          </div>
+
+          <div class="attribute">
+            <img src="{{ site.baseurl }}/images/prototype/intelligence.jpg" class="attribute_image"/>
+            <span class="attribute_title">Intelligence:&nbsp;<span id="intelligence">1</span></span>
+          </div>
+
+          <div class="attribute">
+            <img src="{{ site.baseurl }}/images/prototype/wisdom.jpg" class="attribute_image"/>
+            <span class="attribute_title">Wisdom:&nbsp;<span id="wisdom">1</span></span>
+          </div>
+
+          <div class="attribute">
+            <img src="{{ site.baseurl }}/images/prototype/charisma.jpg" class="attribute_image"/>
+            <span class="attribute_title">Charisma:&nbsp;<span id="charisma">1</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="game_area">
+
+        <button class="forage_button" onclick="onClickForage()">Forage</button>
+        <span>Berries:&nbsp;<span id="tot_berries">0</span></span>
+
+        <script type="text/javascript" src="scripts/engine.js"></script>
+      </div>
+
+    </div>
+
+
+
+  </body>
+
+
+</html>
