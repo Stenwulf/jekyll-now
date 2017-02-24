@@ -4,6 +4,7 @@ permalink: /prototype/Interface
 ---
 
 @import "variables";
+@import "{{ site.baseurl }}/style.css";
 
 .overview_wrapper{
   margin: 25px 50px 25px 50px;
